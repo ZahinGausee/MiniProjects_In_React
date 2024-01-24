@@ -6,17 +6,16 @@ const anotherElement = (
   <a href="https://google.com" target="_blank">Click me to visit google</a>
 )
 
-const anotherUserName = "Chai aur react!"
+const innerText = "Click me to visit the source code."
 
 const reactELement = React.createElement(
   'a',
   {
-    href: 'https://google.com',
+    href: "https://github.com/facebook/react/tree/main",
     target: "_blank"
   },
-  anotherUserName //if there is any expressions then it's like {if} in object it's not valid.
+  innerText //if there is any expressions then it's like {if} in object it's not valid.
 )
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     reactELement

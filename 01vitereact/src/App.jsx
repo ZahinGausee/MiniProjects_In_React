@@ -1,10 +1,11 @@
 
 function App() {
   // Don't put Expressions in JSX
-  const userName = "Zahin Gausee" 
+  const head = "Create Your own custom React js"
+
   return (
     <>
-      <h1>Chai aur Code ! with {userName}</h1>
+      <h1>{head}</h1>
     </>
   )
 }

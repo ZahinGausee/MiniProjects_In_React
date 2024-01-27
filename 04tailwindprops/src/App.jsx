@@ -10,9 +10,11 @@ function App() {
   return (
     <>
     <h1 className="text-3xl font-bold underline bg-green-500 text-gray-600 mb-5">
-      Tailwind CSS
+      Tailwind-CSS Test
     </h1>
+    <p>This project is showcase, that how i install Tailwind and used it, props, components in react</p>
     <Card product="Apple iPhone 15"/>
+    <Card product="Macbook pro"/>
     </>
   )
 }

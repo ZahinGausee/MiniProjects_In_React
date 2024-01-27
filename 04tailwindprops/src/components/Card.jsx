@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Card({product}) {
-  console.log(product)
   return (
     <div class="w-[300px] rounded-md border">
   <img

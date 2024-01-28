@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Custom ignores
+.vite/*
+!.vite/plugins.json
+!.vite/config.json
+
+# Ignore specific files
+.eslintrc.cjs
+vite.svg

@@ -4,7 +4,7 @@ import {TodoForm, TodoItem} from './components';
 
 function App() {
   const [todos, setTodos] = useState([]);
-  console.log(todos)  
+  // console.log(todos)  
 
   // defining the functions
   const addTodo = (todo) => {
